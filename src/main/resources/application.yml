@@ -1,0 +1,38 @@
+public:
+  ip: 192.168.1.106
+private:
+  mysql:
+    ip:
+  redis:
+    ip:
+  kafka:
+    ip:
+  p1:
+    ip:
+  p2:
+    ip:
+  p3:
+    ip:
+  rbac:
+    ip: 123
+
+spring:
+  datasource:
+    url: jdbc:mysql://IP:3306/biu?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
+    username: holelin
+    password: 123456
+  redis:
+    host: IP
+  kafka:
+    consumer:
+      bootstrap-servers: IP:123123
+p1:
+  ip: IP
+p2:
+  ip: IP
+p3:
+  ip: IP
+p4:
+  ip: IP
+
+
